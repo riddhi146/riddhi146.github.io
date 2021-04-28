@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+  }
+
+.main {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: white;
+    z-index:1;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.02)
+}
+
+.logo img {
+    height:45px;
+    margin-left: 40px;
+     
+}
+.lists{
+    margin-left: 120px;
+}
+.lists ul {
+    display: flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lists ul li {
+    list-style: none;
+    margin: 0 15px;
+    display:flex;
+    
+}
+
+.lists ul li a {
+    color:gray;
+    font-size: 1em;
+    line-height:1em;
+    text-decoration: none;
+    padding:0px 22px;
+    display:flex;
+    font-weight: 500;
+    transition: 0.5s;
+    margin:3px;
+    letter-spacing:1px;
+}
+
+.lists ul li:hover a {
+    background: rgb(23, 211, 180);
+    color:white;
+
+}
+.greet {
+    display: flex;
+    transition: ease-in  0.5s;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.greet a {
+    color: rgb(17, 221, 187);
+    text-decoration:none;
+    font-size: 1em;
+    line-height:1em;
+    font-weight: 500;
+}
+
+.greet:hover a {
+    background: rgb(23, 211, 180);
+    color:white;
+}
+
+.main_content {
+    width:80%;
+    margin-top:50px;
+    display: flex;
+    position: absolute;
+    margin-left: 100px;
+    margin-bottom:100px;
+}
+
+.picture img {
+    width: 90%;
+    height: 80%;
+    margin-top: 40px;
+    object-fit: contain;
+    z-index:2;
+   /*box-shadow: 5px 10px 10px 0.5px rgba(0,0,0,0.2);*/
+}
+
+.info {
+    margin-left: 500px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.info h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #1c3548;
+    line-height: 60px;
+}
+
+.info p {
+    color:grey;
+
+}
+
+.button {
+    width:190px;
+    height:44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1db096;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500px;
+}
+ .button:hover {
+     background-color:rgb(13, 160, 160);
+     color: white;
+ }
